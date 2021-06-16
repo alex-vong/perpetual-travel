@@ -1,0 +1,31 @@
+
+
+/*call to action module*/
+
+.call-to-action {
+	background-color: var(--blue);
+	text-align:  center;
+	margin-top:  30px;
+
+}
+
+.cta-module {
+	text-align:  center;
+}
+
+.cta-blue { 
+	background-color: var(--blue);
+	background: url('../../images/disney-land.jpeg') no-repeat center center/cover;
+}
+
+.cta-blue p {
+	text-shadow: 2px 2px 2px black;
+}
+
+.cta-module {
+	padding: 60px 30px;
+}
+
+footer .call-to-action {
+	margin-top:  0;
+}

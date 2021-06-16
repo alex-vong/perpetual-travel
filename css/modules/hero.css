@@ -1,0 +1,60 @@
+.hero {
+	background-color: var(--gray);
+	color:  white;
+	padding:  10px 7px;
+	margin-top:  20px;
+
+}
+
+.hero-card {
+	padding:  10px;
+	background-color: var(--site-green);
+	box-shadow:  var(--box-shadow);
+	border-radius: 20px;
+
+
+}
+
+picture {
+	display: block;
+	margin: 20px 0 10px;
+}
+
+picture img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: var(--border);
+	border-radius:  20px;
+	margin: auto;
+}
+
+
+.header, .header-text {
+	margin: 20px 0;
+}
+
+
+.hero-text h1 {
+	font-size:  clamp(35px, 10vw, 100px);
+	text-align: center;
+	text-shadow: 5px 5px 2px var(--site-green);
+
+
+}
+
+.hero-text, .header, .header-text {
+	padding: 10px;
+}
+
+.hero-text {
+	padding-top:  5px;
+}
+
+.header-text p{
+	font-size:  22px;
+	text-shadow: 2px 2px 2px var(--blue);
+
+}
+
+

@@ -1,0 +1,157 @@
+/*article grid*/
+
+.article-grid {
+	background-color: var(--gray);
+	/*padding-top: 40px;*/
+
+}
+
+
+.article-grid-container .header {
+	/*font-family: "Thirsty Rough Reg Two";*/
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	color:  var(--site-green);
+	font-size: clamp(40px, 10vw, 45px);
+	margin-bottom:  0;
+
+}
+
+.article-grid-main-card p.support-text {
+	color:  var(--blue);
+	font-size:  20px;
+	text-shadow: none;
+
+}
+
+.article-card-container .header {
+	font-size:  clamp(30px, 10vw, 35px);
+}
+
+.article-card h3 {
+	margin-top: 40px;
+	
+}
+
+.article-card-container p {
+	font-size:  18px;
+} 
+
+
+
+.article-grid-main-card {
+	padding: 30px 15px 10px;
+
+	text-align: center;
+}
+
+
+
+.article-card-container {
+	padding:  10px;
+
+}
+
+.article-card-container{
+	padding: 15px;
+}
+
+.article-card-container .article-card {
+	height: 350px;
+	border-radius:  20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	text-align: center;
+
+}
+
+
+.article-card + .article-card {
+	/*border: var(--border);*/
+	margin-top: 20px;
+	padding: 5px;
+
+}
+
+.article-card-container .article-card h3 {
+	/*font-family: "chivo";*/
+	margin: 20px 10px 0;
+	padding: 10px;
+	color:  var(--site-green);
+	text-shadow:  2px 2px 1px black;
+
+
+
+}
+
+.article-card p {
+	/*color:  var(--site-green);*/
+	text-shadow:  2px 2px 1px black;
+	padding: 10px 15px;
+
+}
+
+
+
+
+.card-text {
+	color:  white;
+
+}
+
+.article-card .button {
+	background-color: var(--blue);
+	margin:  0 15px;
+
+
+	/*display: inline-block;*/
+
+}
+
+
+.article-card-container .article-card:hover {
+	transform: scale(1.05);
+	/*border-radius: 40px;*/
+	box-shadow:  inset 0px 0px 2px 8px var(--site-green);
+}
+
+.article-card-container .article-card:first-child {
+	background: url('../../images/tokyo-tower.jpeg') no-repeat center center/cover; 
+}
+
+.article-card-container .article-card:nth-child(2n) {
+	background: url('../../images/new-york.jpeg') no-repeat center center/cover; 
+}
+
+.article-card-container .article-card:nth-child(3n) {
+	background: url('../../images/sf-bay.jpeg') no-repeat center center/cover; 
+}
+
+.article-card-container .article-card:nth-child(4n) {
+	background: url('../../images/big-ben.jpeg') no-repeat center center/cover; 
+}
+
+.article-card-container .article-card:nth-child(5n) {
+	background: url('../../images/china.jpeg') no-repeat center center/cover; 
+}
+
+.article-card-container .article-card:nth-child(6n) {
+	background: url('../../images/paris-night.png') no-repeat center center/cover; 
+	margin-bottom:  30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

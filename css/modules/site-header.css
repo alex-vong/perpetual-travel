@@ -1,0 +1,55 @@
+
+/*site header*/
+.site-header {
+	background-color: var(--blue);
+	color:  white;
+}
+
+masthead {
+	display: block;
+
+}
+
+.site-logo {
+  font-size: clamp(35px, 10vw, 40px);
+  font-weight: bold;
+  margin:  0;
+
+}
+
+.menu-options a.header {
+   text-shadow:  none;
+
+}
+
+.menu-options {
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	font-family: 'Sintony', sans-serif;
+	font-size:  18px;
+	font-weight: bold;
+}
+
+masthead, nav, nav a, .sign-in a {
+	padding: 10px;
+	text-align: center;
+}
+
+.sign-in {
+	display: flex;
+	justify-content: center;
+}
+
+.sign-in a {
+	border:  2px solid white;
+}
+
+
+
