@@ -15,7 +15,7 @@
 			"button" => "Act!",
 			];
 
-		$articleSupport = [
+		$articleText = [
 			"head" => "This is the title of an article card",
 			"text" => "Here's a little info to help you understand if this is an article you want to read",
 			"button" => "Read More!",
@@ -35,9 +35,9 @@
 			<?php for ($i = 1; $i <= 5; $i++) {?>
 
 			<section class="article-card">
-				<h3 class="header"> <?=$articleSupport['head']?> </h3>
-				<p class="support-text"> <?=$articleSupport['text']?> </p>
-				<a href="#" class='button'><?=$articleSupport['button']?></a>
+				<h3 class="header"> <?=$articleText['head']?> </h3>
+				<p class="support-text"> <?=$articleText['text']?> </p>
+				<a href="#" class='button'><?=$articleText['button']?></a>
 			</section>
 
 			<?php } ?>
