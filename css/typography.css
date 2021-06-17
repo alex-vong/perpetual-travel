@@ -2,25 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,900;1,900&display=swap');
-/*@import url(//db.onlinewebfonts.com/c/f08d8e09fa8cc7b855d5942f89099de4?family=Thirsty+Rough+Reg+Two);*/
-
-@font-face {
-
-font-family: "Thirsty"; 
-src: url("../thirsty_sv3/ThirstyRoughBlack.otf") format("otf"); 
-
-		}
 
 
 .menu-options .site-logo {
-	font-family: "Thirsty";
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+
 	font-family: 'Chivo', sans-serif;
 }
 
 .header {
-/*	font-family: 'Source Sans Pro', sans-serif;
-	font-family: "Thirsty Rough Reg Two";*/
+
 	font-family: 'Chivo', sans-serif;
 	text-shadow:  3px 3px 1px black;
 	color:  white;
